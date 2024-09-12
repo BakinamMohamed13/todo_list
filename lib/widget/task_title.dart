@@ -89,7 +89,7 @@ class _TaskTileState extends State<TaskTile> {
           value: widget.task.isCompleted,
           onChanged: widget.onChanged,
           activeColor: Colors.blue,
-          checkColor: Colors.white,
+          checkColor: Colors.black,
         ),
         Expanded(
           child: Text(
